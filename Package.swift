@@ -13,6 +13,6 @@ let package = Package(
         .executableTarget(
             name: "Website",
             dependencies: ["Ignite"]
-        ),
+        )
     ]
 )

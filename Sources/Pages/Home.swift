@@ -3,7 +3,7 @@ import Ignite
 
 struct Home: StaticPage {
     var title = "Home"
-
+    
     var body: some HTML {
         VStack {
             Section {
@@ -16,15 +16,15 @@ struct Home: StaticPage {
             .style(.padding, "4px")
             .style(.borderRadius, "50%")
             .style(.display, "inline-flex")
-
+            
             Text("Yunosuke Sakai")
                 .font(.title2)
                 .padding()
-
+            
             HStack {
                 Link("GitHub: ski-u", target: URL(string: "https://github.com/ski-u")!)
                     .aria(.label, "GitHub profile, username ski-u")
-
+                
                 Link("X: _ski_u", target: URL(string: "https://x.com/_ski_u")!)
                     .aria(.label, "X profile, username _ski_u")
             }
