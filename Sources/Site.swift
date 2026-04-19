@@ -17,7 +17,7 @@ struct IgniteWebsite {
 struct PersonalSite: Site {
     var name = "ski-u"
     var titleSuffix = " – ski-u's website"
-    var url = URL(static: "https://www.example.com")
+    var url = URL(static: "https://www.ski-u.jp")
     var builtInIconsEnabled = true
     
     var author = "Yunosuke Sakai"
