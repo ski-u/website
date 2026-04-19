@@ -17,9 +17,13 @@ struct Home: StaticPage {
             .style(.borderRadius, "50%")
             .style(.display, "inline-flex")
             
-            Text("Yunosuke Sakai")
-                .font(.title2)
-                .padding()
+            VStack(spacing: 4) {
+                Text("Yunosuke Sakai")
+                    .font(.title2)
+                
+                Text("iOS app developer")
+            }
+            .padding()
             
             HStack {
                 Link("GitHub: ski-u", target: URL(string: "https://github.com/ski-u")!)
