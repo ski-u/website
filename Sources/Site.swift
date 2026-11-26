@@ -25,5 +25,9 @@ struct PersonalSite: Site {
     var darkTheme: (any Theme)? = CustomDarkTheme()
     
     var homePage = Home()
+    var staticPages: [any StaticPage] {
+        EhoCompass()
+        EhoCompassPrivacyPolicy()
+    }
     var layout = MainLayout()
 }
