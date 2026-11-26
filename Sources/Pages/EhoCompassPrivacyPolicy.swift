@@ -8,7 +8,7 @@ struct EhoCompassPrivacyPolicy: StaticPage {
     var body: some HTML {
         VStack(alignment: .leading, spacing: 40) {
             Text("2026年の恵方コンパス Privacy Policy")
-                .font(.title1)
+                .font(.title3)
             
             Text("The “2026年の恵方コンパス” app does not collect, store, or share any personal data.")
         }
